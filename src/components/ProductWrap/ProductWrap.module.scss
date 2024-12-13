@@ -1,0 +1,106 @@
+.wrap {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 40px;
+}
+
+.images {
+   display: grid;grid-template-columns: 1fr 3fr;
+   gap: 20px;
+   img {
+      width: 100%;
+      border-radius: 20px;
+      height: 100%;
+      aspect-ratio: 1/1.1;
+      object-fit: cover;
+   }
+
+   div {
+   display: flex;
+   flex-direction: column;
+   gap: 18px;
+   }
+}
+
+
+.box {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+
+   div {
+      
+      h2 {
+         font-size: 40px;
+         font-weight: 700;
+
+      }
+
+      .price {
+         s {
+            color: #0000004D;
+            font-size: 32px;
+
+         }
+         b {
+            color: #000000;
+            font-size: 32px;
+
+         }
+ 
+      }
+      p {
+         color: #00000099;
+         font-size: 16px;
+      }
+   }
+
+
+  
+}
+
+.btns {
+   margin-bottom: 10px;
+   display: flex;
+   gap: 12px;
+   button {
+      background-color: #F0F0F0;
+      color: #00000099;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 50px;
+   }
+   .btn1 {
+      background-color: #000000;
+      color: #FFFFFF;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 50px;
+   }
+   
+
+}
+
+.count {
+   display: flex;
+   justify-content: space-between;
+   gap: 20px;
+   align-items: center;
+
+   button {
+      padding: 7px 50px;
+      background-color: #F0F0F0;
+      color: #000000;
+      border: none;
+      border-radius: 40px;
+      font-size: 16px;
+   }
+   .btn2 {
+      padding: 7px 100px;
+      background-color: #000000;
+      color: #FFFFFF;
+      border: none;
+      border-radius: 40px;
+      font-size: 16px;
+   }
+}

@@ -1,0 +1,38 @@
+.wrap {
+   display: flex;
+
+   justify-content: center;
+
+   align-items: center;
+
+   gap: 20px;
+
+   
+}
+
+.card {
+   
+   
+   padding: 28px 32px;
+   border-radius: 20px;
+   
+   border: 1px solid #0000001A;
+   text-align: left;
+   // padding-left: 20px;
+
+   h3 {
+      color: #000000;
+      font-size: 20px;
+      font-weight: 700;
+   }
+   p {
+      color: #00000099;
+      font-size: 16px;
+      font-weight: 400;
+   }
+
+   div {
+      display: flex;
+      justify-content: space-between;
+   }
+}
